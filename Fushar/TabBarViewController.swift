@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabBarViewController.swift
 //  Fushar
 //
 //  Created by Mohamed Ibrahem on 1/12/22.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TabBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

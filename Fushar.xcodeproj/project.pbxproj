@@ -3,27 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612840B0278F0029002CC36F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840AF278F0029002CC36F /* PlayerViewController.swift */; };
+		612840B2278F1AFB002CC36F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840B1278F1AFB002CC36F /* DetailsViewController.swift */; };
+		612840B4278F32F7002CC36F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840B3278F32F7002CC36F /* Extensions.swift */; };
+		612840F3278F7FCA002CC36F /* c6d28441d907004822a3c93212959eb3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */; };
+		612840F4278F7FCA002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */; };
+		612840F5278F7FCA002CC36F /* 6abda281416aa18ed49351ea81319069.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */; };
+		616D03FB2790300100EF49E6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D03FA2790300100EF49E6 /* ContainerViewController.swift */; };
+		616D03FD2790413100EF49E6 /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */; };
+		616D03FF27904FDA00EF49E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616D03FE27904FD900EF49E6 /* Assets.xcassets */; };
+		616D0401279055E300EF49E6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D0400279055E300EF49E6 /* SignInViewController.swift */; };
+		616D04032790615900EF49E6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D04022790615900EF49E6 /* WelcomeViewController.swift */; };
+		616D0405279061EA00EF49E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D0404279061EA00EF49E6 /* SettingsViewController.swift */; };
 		61DCBA49278E4DCA008085B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA48278E4DCA008085B7 /* AppDelegate.swift */; };
 		61DCBA4B278E4DCA008085B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */; };
-		61DCBA4D278E4DCA008085B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA4C278E4DCA008085B7 /* ViewController.swift */; };
+		61DCBA4D278E4DCA008085B7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */; };
 		61DCBA50278E4DCA008085B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DCBA4E278E4DCA008085B7 /* Main.storyboard */; };
-		61DCBA52278E4DCB008085B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DCBA51278E4DCB008085B7 /* Assets.xcassets */; };
 		61DCBA55278E4DCB008085B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DCBA53278E4DCB008085B7 /* LaunchScreen.storyboard */; };
+		61DCBA5D278EAE05008085B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA5C278EAE05008085B7 /* HomeViewController.swift */; };
+		61DCBA61278EAEC5008085B7 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA60278EAEC5008085B7 /* HomeCell.swift */; };
+		61DCBA63278ECB41008085B7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA62278ECB41008085B7 /* AboutViewController.swift */; };
+		61DCBA65278ECCEF008085B7 /* AboutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA64278ECCEF008085B7 /* AboutCell.swift */; };
+		61DCBA67278EEADA008085B7 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA66278EEADA008085B7 /* URLs.swift */; };
+		61DCBA69278EEB07008085B7 /* DetailsApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA68278EEB07008085B7 /* DetailsApiManager.swift */; };
+		61DCBA6B278EF0E2008085B7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA6A278EF0E2008085B7 /* Models.swift */; };
+		7D8F4164A4FD409E8B43473C /* Pods_Fushar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC9782EB7A069A01CD49125 /* Pods_Fushar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CC9782EB7A069A01CD49125 /* Pods_Fushar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fushar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		612840AF278F0029002CC36F /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		612840B1278F1AFB002CC36F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		612840B3278F32F7002CC36F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c6d28441d907004822a3c93212959eb3.ttf; sourceTree = "<group>"; };
+		612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5daefb0a2cf5e613be44a696875c6462.ttf; sourceTree = "<group>"; };
+		612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6abda281416aa18ed49351ea81319069.ttf; sourceTree = "<group>"; };
+		616D03FA2790300100EF49E6 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
+		616D03FE27904FD900EF49E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616D0400279055E300EF49E6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		616D04022790615900EF49E6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		616D0404279061EA00EF49E6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		61DCBA45278E4DCA008085B7 /* Fushar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fushar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DCBA48278E4DCA008085B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61DCBA4C278E4DCA008085B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		61DCBA4F278E4DCA008085B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		61DCBA51278E4DCB008085B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61DCBA54278E4DCB008085B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61DCBA56278E4DCB008085B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61DCBA5C278EAE05008085B7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		61DCBA60278EAEC5008085B7 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		61DCBA62278ECB41008085B7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		61DCBA64278ECCEF008085B7 /* AboutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCell.swift; sourceTree = "<group>"; };
+		61DCBA66278EEADA008085B7 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		61DCBA68278EEB07008085B7 /* DetailsApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsApiManager.swift; sourceTree = "<group>"; };
+		61DCBA6A278EF0E2008085B7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7361A190CA9CB0DD7236C3EF /* Pods-Fushar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fushar.debug.xcconfig"; path = "Target Support Files/Pods-Fushar/Pods-Fushar.debug.xcconfig"; sourceTree = "<group>"; };
+		C68C0B39D5F356B5266A4510 /* Pods-Fushar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fushar.release.xcconfig"; path = "Target Support Files/Pods-Fushar/Pods-Fushar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8F4164A4FD409E8B43473C /* Pods_Fushar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A939AFDDAFD83E3809AFC42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CC9782EB7A069A01CD49125 /* Pods_Fushar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		61DCBA3C278E4DCA008085B7 = {
 			isa = PBXGroup;
 			children = (
 				61DCBA47278E4DCA008085B7 /* Fushar */,
 				61DCBA46278E4DCA008085B7 /* Products */,
+				BD655CBCE7DED66BAF462D2D /* Pods */,
+				5A939AFDDAFD83E3809AFC42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +108,41 @@
 			isa = PBXGroup;
 			children = (
 				61DCBA48278E4DCA008085B7 /* AppDelegate.swift */,
+				616D0400279055E300EF49E6 /* SignInViewController.swift */,
 				61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */,
-				61DCBA4C278E4DCA008085B7 /* ViewController.swift */,
+				61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */,
+				61DCBA5C278EAE05008085B7 /* HomeViewController.swift */,
+				61DCBA62278ECB41008085B7 /* AboutViewController.swift */,
+				612840B1278F1AFB002CC36F /* DetailsViewController.swift */,
+				612840AF278F0029002CC36F /* PlayerViewController.swift */,
+				61DCBA64278ECCEF008085B7 /* AboutCell.swift */,
+				61DCBA60278EAEC5008085B7 /* HomeCell.swift */,
 				61DCBA4E278E4DCA008085B7 /* Main.storyboard */,
-				61DCBA51278E4DCB008085B7 /* Assets.xcassets */,
 				61DCBA53278E4DCB008085B7 /* LaunchScreen.storyboard */,
 				61DCBA56278E4DCB008085B7 /* Info.plist */,
+				61DCBA66278EEADA008085B7 /* URLs.swift */,
+				61DCBA68278EEB07008085B7 /* DetailsApiManager.swift */,
+				61DCBA6A278EF0E2008085B7 /* Models.swift */,
+				612840B3278F32F7002CC36F /* Extensions.swift */,
+				612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */,
+				612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */,
+				612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */,
+				616D03FA2790300100EF49E6 /* ContainerViewController.swift */,
+				616D03FE27904FD900EF49E6 /* Assets.xcassets */,
+				616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */,
+				616D04022790615900EF49E6 /* WelcomeViewController.swift */,
+				616D0404279061EA00EF49E6 /* SettingsViewController.swift */,
 			);
 			path = Fushar;
+			sourceTree = "<group>";
+		};
+		BD655CBCE7DED66BAF462D2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7361A190CA9CB0DD7236C3EF /* Pods-Fushar.debug.xcconfig */,
+				C68C0B39D5F356B5266A4510 /* Pods-Fushar.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61DCBA59278E4DCB008085B7 /* Build configuration list for PBXNativeTarget "Fushar" */;
 			buildPhases = (
+				77A9BF1F38C9CB0ACAAFED61 /* [CP] Check Pods Manifest.lock */,
 				61DCBA41278E4DCA008085B7 /* Sources */,
 				61DCBA42278E4DCA008085B7 /* Frameworks */,
 				61DCBA43278E4DCA008085B7 /* Resources */,
+				F7B70490EB4C2D89FB5255CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +206,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				61DCBA55278E4DCB008085B7 /* LaunchScreen.storyboard in Resources */,
-				61DCBA52278E4DCB008085B7 /* Assets.xcassets in Resources */,
+				612840F5278F7FCA002CC36F /* 6abda281416aa18ed49351ea81319069.ttf in Resources */,
+				612840F4278F7FCA002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf in Resources */,
+				612840F3278F7FCA002CC36F /* c6d28441d907004822a3c93212959eb3.ttf in Resources */,
+				616D03FF27904FDA00EF49E6 /* Assets.xcassets in Resources */,
 				61DCBA50278E4DCA008085B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77A9BF1F38C9CB0ACAAFED61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fushar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7B70490EB4C2D89FB5255CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fushar/Pods-Fushar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fushar/Pods-Fushar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fushar/Pods-Fushar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61DCBA41278E4DCA008085B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61DCBA4D278E4DCA008085B7 /* ViewController.swift in Sources */,
+				61DCBA63278ECB41008085B7 /* AboutViewController.swift in Sources */,
+				61DCBA4D278E4DCA008085B7 /* TabBarViewController.swift in Sources */,
+				616D03FB2790300100EF49E6 /* ContainerViewController.swift in Sources */,
 				61DCBA49278E4DCA008085B7 /* AppDelegate.swift in Sources */,
+				61DCBA69278EEB07008085B7 /* DetailsApiManager.swift in Sources */,
+				616D04032790615900EF49E6 /* WelcomeViewController.swift in Sources */,
+				61DCBA67278EEADA008085B7 /* URLs.swift in Sources */,
 				61DCBA4B278E4DCA008085B7 /* SceneDelegate.swift in Sources */,
+				616D03FD2790413100EF49E6 /* DepartmentsViewController.swift in Sources */,
+				61DCBA5D278EAE05008085B7 /* HomeViewController.swift in Sources */,
+				61DCBA61278EAEC5008085B7 /* HomeCell.swift in Sources */,
+				612840B4278F32F7002CC36F /* Extensions.swift in Sources */,
+				61DCBA65278ECCEF008085B7 /* AboutCell.swift in Sources */,
+				616D0401279055E300EF49E6 /* SignInViewController.swift in Sources */,
+				612840B0278F0029002CC36F /* PlayerViewController.swift in Sources */,
+				61DCBA6B278EF0E2008085B7 /* Models.swift in Sources */,
+				612840B2278F1AFB002CC36F /* DetailsViewController.swift in Sources */,
+				616D0405279061EA00EF49E6 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +422,11 @@
 		};
 		61DCBA5A278E4DCB008085B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7361A190CA9CB0DD7236C3EF /* Pods-Fushar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7VF4F6DRH;
+				DEVELOPMENT_TEAM = 8Q3CUYY7MN;
 				INFOPLIST_FILE = Fushar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +441,11 @@
 		};
 		61DCBA5B278E4DCB008085B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68C0B39D5F356B5266A4510 /* Pods-Fushar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7VF4F6DRH;
+				DEVELOPMENT_TEAM = 8Q3CUYY7MN;
 				INFOPLIST_FILE = Fushar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
