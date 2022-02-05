@@ -12,4 +12,8 @@ target 'Fushar' do
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'IQKeyboardManagerSwift'
+  pod 'ViewAnimator'
+  pod 'expanding-collection'
+  pod 'MOLH'
+  pod 'SkeletonView'
 end

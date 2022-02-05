@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		612840B0278F0029002CC36F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840AF278F0029002CC36F /* PlayerViewController.swift */; };
 		612840B2278F1AFB002CC36F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840B1278F1AFB002CC36F /* DetailsViewController.swift */; };
 		612840B4278F32F7002CC36F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612840B3278F32F7002CC36F /* Extensions.swift */; };
 		612840F3278F7FCA002CC36F /* c6d28441d907004822a3c93212959eb3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */; };
 		612840F4278F7FCA002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */; };
 		612840F5278F7FCA002CC36F /* 6abda281416aa18ed49351ea81319069.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */; };
+		6163D2DF27A937AA0057E536 /* SignInApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D2DE27A937AA0057E536 /* SignInApiManager.swift */; };
+		6163D2E127A94DEF0057E536 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6163D2E027A94DEF0057E536 /* UserDefaultsManager.swift */; };
+		6167E06327AA6CCE00E5D955 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6167E06227AA6CCE00E5D955 /* DownloadViewController.swift */; };
+		6167E06627AA8C2700E5D955 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6167E06527AA8C2700E5D955 /* AdViewController.swift */; };
 		616D03FB2790300100EF49E6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D03FA2790300100EF49E6 /* ContainerViewController.swift */; };
 		616D03FD2790413100EF49E6 /* DepartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */; };
 		616D03FF27904FDA00EF49E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616D03FE27904FD900EF49E6 /* Assets.xcassets */; };
 		616D0401279055E300EF49E6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D0400279055E300EF49E6 /* SignInViewController.swift */; };
 		616D04032790615900EF49E6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D04022790615900EF49E6 /* WelcomeViewController.swift */; };
 		616D0405279061EA00EF49E6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616D0404279061EA00EF49E6 /* SettingsViewController.swift */; };
+		6175860827A6EEB30018B01F /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6175860727A6EEB30018B01F /* BannerCell.swift */; };
 		61DCBA49278E4DCA008085B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA48278E4DCA008085B7 /* AppDelegate.swift */; };
 		61DCBA4B278E4DCA008085B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */; };
 		61DCBA4D278E4DCA008085B7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */; };
@@ -36,19 +40,23 @@
 
 /* Begin PBXFileReference section */
 		3CC9782EB7A069A01CD49125 /* Pods_Fushar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fushar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		612840AF278F0029002CC36F /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		612840B1278F1AFB002CC36F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		612840B3278F32F7002CC36F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c6d28441d907004822a3c93212959eb3.ttf; sourceTree = "<group>"; };
 		612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5daefb0a2cf5e613be44a696875c6462.ttf; sourceTree = "<group>"; };
 		612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6abda281416aa18ed49351ea81319069.ttf; sourceTree = "<group>"; };
+		6163D2DE27A937AA0057E536 /* SignInApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApiManager.swift; sourceTree = "<group>"; };
+		6163D2E027A94DEF0057E536 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		6167E06227AA6CCE00E5D955 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		6167E06527AA8C2700E5D955 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		616D03FA2790300100EF49E6 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsViewController.swift; sourceTree = "<group>"; };
 		616D03FE27904FD900EF49E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		616D0400279055E300EF49E6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		616D04022790615900EF49E6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		616D0404279061EA00EF49E6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		61DCBA45278E4DCA008085B7 /* Fushar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fushar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6175860727A6EEB30018B01F /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		61DCBA45278E4DCA008085B7 /* Fushaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fushaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DCBA48278E4DCA008085B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +94,79 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		618FEF5727A7D3B5003DBC50 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				61DCBA68278EEB07008085B7 /* DetailsApiManager.swift */,
+				6163D2DE27A937AA0057E536 /* SignInApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		618FEF5827A7D3D8003DBC50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				616D03FA2790300100EF49E6 /* ContainerViewController.swift */,
+				61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */,
+				616D04022790615900EF49E6 /* WelcomeViewController.swift */,
+				616D0400279055E300EF49E6 /* SignInViewController.swift */,
+				61DCBA5C278EAE05008085B7 /* HomeViewController.swift */,
+				61DCBA62278ECB41008085B7 /* AboutViewController.swift */,
+				612840B1278F1AFB002CC36F /* DetailsViewController.swift */,
+				616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */,
+				616D0404279061EA00EF49E6 /* SettingsViewController.swift */,
+				6167E06227AA6CCE00E5D955 /* DownloadViewController.swift */,
+				6167E06527AA8C2700E5D955 /* AdViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		618FEF5927A7D417003DBC50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61DCBA64278ECCEF008085B7 /* AboutCell.swift */,
+				61DCBA60278EAEC5008085B7 /* HomeCell.swift */,
+				6175860727A6EEB30018B01F /* BannerCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		618FEF5A27A7D45B003DBC50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61DCBA6A278EF0E2008085B7 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		618FEF5B27A7D463003DBC50 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				61DCBA66278EEADA008085B7 /* URLs.swift */,
+				612840B3278F32F7002CC36F /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		618FEF5C27A7D486003DBC50 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				61DCBA48278E4DCA008085B7 /* AppDelegate.swift */,
+				61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		618FEF5D27A7D49A003DBC50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */,
+				612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */,
+				612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		61DCBA3C278E4DCA008085B7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +180,7 @@
 		61DCBA46278E4DCA008085B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61DCBA45278E4DCA008085B7 /* Fushar.app */,
+				61DCBA45278E4DCA008085B7 /* Fushaar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,31 +188,18 @@
 		61DCBA47278E4DCA008085B7 /* Fushar */ = {
 			isa = PBXGroup;
 			children = (
-				61DCBA48278E4DCA008085B7 /* AppDelegate.swift */,
-				616D0400279055E300EF49E6 /* SignInViewController.swift */,
-				61DCBA4A278E4DCA008085B7 /* SceneDelegate.swift */,
-				61DCBA4C278E4DCA008085B7 /* TabBarViewController.swift */,
-				61DCBA5C278EAE05008085B7 /* HomeViewController.swift */,
-				61DCBA62278ECB41008085B7 /* AboutViewController.swift */,
-				612840B1278F1AFB002CC36F /* DetailsViewController.swift */,
-				612840AF278F0029002CC36F /* PlayerViewController.swift */,
-				61DCBA64278ECCEF008085B7 /* AboutCell.swift */,
-				61DCBA60278EAEC5008085B7 /* HomeCell.swift */,
+				618FEF5C27A7D486003DBC50 /* Parent */,
+				618FEF5A27A7D45B003DBC50 /* Model */,
+				618FEF5727A7D3B5003DBC50 /* Networking */,
+				618FEF5827A7D3D8003DBC50 /* Controllers */,
+				618FEF5927A7D417003DBC50 /* Views */,
 				61DCBA4E278E4DCA008085B7 /* Main.storyboard */,
 				61DCBA53278E4DCB008085B7 /* LaunchScreen.storyboard */,
 				61DCBA56278E4DCB008085B7 /* Info.plist */,
-				61DCBA66278EEADA008085B7 /* URLs.swift */,
-				61DCBA68278EEB07008085B7 /* DetailsApiManager.swift */,
-				61DCBA6A278EF0E2008085B7 /* Models.swift */,
-				612840B3278F32F7002CC36F /* Extensions.swift */,
-				612840F1278F7FC9002CC36F /* 5daefb0a2cf5e613be44a696875c6462.ttf */,
-				612840F2278F7FC9002CC36F /* 6abda281416aa18ed49351ea81319069.ttf */,
-				612840F0278F7FC9002CC36F /* c6d28441d907004822a3c93212959eb3.ttf */,
-				616D03FA2790300100EF49E6 /* ContainerViewController.swift */,
+				6163D2E027A94DEF0057E536 /* UserDefaultsManager.swift */,
+				618FEF5B27A7D463003DBC50 /* Utilities */,
+				618FEF5D27A7D49A003DBC50 /* Fonts */,
 				616D03FE27904FD900EF49E6 /* Assets.xcassets */,
-				616D03FC2790413100EF49E6 /* DepartmentsViewController.swift */,
-				616D04022790615900EF49E6 /* WelcomeViewController.swift */,
-				616D0404279061EA00EF49E6 /* SettingsViewController.swift */,
 			);
 			path = Fushar;
 			sourceTree = "<group>";
@@ -164,7 +232,7 @@
 			);
 			name = Fushar;
 			productName = Fushar;
-			productReference = 61DCBA45278E4DCA008085B7 /* Fushar.app */;
+			productReference = 61DCBA45278E4DCA008085B7 /* Fushaar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,19 +336,23 @@
 				616D03FB2790300100EF49E6 /* ContainerViewController.swift in Sources */,
 				61DCBA49278E4DCA008085B7 /* AppDelegate.swift in Sources */,
 				61DCBA69278EEB07008085B7 /* DetailsApiManager.swift in Sources */,
+				6167E06627AA8C2700E5D955 /* AdViewController.swift in Sources */,
 				616D04032790615900EF49E6 /* WelcomeViewController.swift in Sources */,
+				6163D2E127A94DEF0057E536 /* UserDefaultsManager.swift in Sources */,
 				61DCBA67278EEADA008085B7 /* URLs.swift in Sources */,
 				61DCBA4B278E4DCA008085B7 /* SceneDelegate.swift in Sources */,
 				616D03FD2790413100EF49E6 /* DepartmentsViewController.swift in Sources */,
+				6167E06327AA6CCE00E5D955 /* DownloadViewController.swift in Sources */,
 				61DCBA5D278EAE05008085B7 /* HomeViewController.swift in Sources */,
 				61DCBA61278EAEC5008085B7 /* HomeCell.swift in Sources */,
 				612840B4278F32F7002CC36F /* Extensions.swift in Sources */,
 				61DCBA65278ECCEF008085B7 /* AboutCell.swift in Sources */,
 				616D0401279055E300EF49E6 /* SignInViewController.swift in Sources */,
-				612840B0278F0029002CC36F /* PlayerViewController.swift in Sources */,
+				6163D2DF27A937AA0057E536 /* SignInApiManager.swift in Sources */,
 				61DCBA6B278EF0E2008085B7 /* Models.swift in Sources */,
 				612840B2278F1AFB002CC36F /* DetailsViewController.swift in Sources */,
 				616D0405279061EA00EF49E6 /* SettingsViewController.swift in Sources */,
+				6175860827A6EEB30018B01F /* BannerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,14 +498,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q3CUYY7MN;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 47LU8G6R4V;
 				INFOPLIST_FILE = Fushar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Fushar.Fushar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FushaarApp.Fushaar;
+				PRODUCT_NAME = Fushaar;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,14 +519,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8Q3CUYY7MN;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 47LU8G6R4V;
 				INFOPLIST_FILE = Fushar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Fushar.Fushar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FushaarApp.Fushaar;
+				PRODUCT_NAME = Fushaar;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
